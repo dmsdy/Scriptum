@@ -1,0 +1,16 @@
+verbum word := legere(“Enter with any text”)
+decimus dec := 3.2
+integrum numA := 4
+integrum numB := 2
+dum (numA = 4) fac
+    numB := 0
+finis
+si (word = “code”) tum fac
+    scribere(“The text is correct!”)
+    scribere(numA + numB)
+alioquin
+    scribere(“The text isn’t correct.”)
+finis
+pro (integrum i := 0; i <= numA; i++) fac
+    numB := numB * 2
+finis
