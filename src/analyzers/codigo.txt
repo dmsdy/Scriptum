@@ -1,0 +1,16 @@
+integrum numero
+integrum produto
+integrum i
+legere apertum "Digite o numero para tabuada", numero clausum
+pro apertum i := 1, i <= 30, i++ clausum fac
+    numero := numero + 1
+    scribere apertum numero clausum
+finis
+
+
+integrum x
+x := 10
+dum apertum x > 0 clausum fac
+    scribere apertum x clausum
+    x := x - 1
+finis
